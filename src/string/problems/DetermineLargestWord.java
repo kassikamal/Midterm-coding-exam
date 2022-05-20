@@ -1,4 +1,4 @@
-package DetermineLargestWord;
+package string.problems;
 
 import java.util.HashMap;
 import java.util.Map;
