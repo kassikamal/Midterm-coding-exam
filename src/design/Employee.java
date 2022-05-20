@@ -10,7 +10,13 @@ public interface Employee {
 	
 	//employeeId() will return employee id.
 	public int employeeId();
-	
+
+	// assign employee ID
+	public void setEmployeeID(int i);
+
+	// set employee name
+	public void setEmployeeName(String name);
+
 	//employeeName() will return employee name
 	public String employeeName();
 	

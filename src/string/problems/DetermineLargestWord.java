@@ -1,8 +1,7 @@
-package string.problems;
+package DetermineLargestWord;
 
 import java.util.HashMap;
 import java.util.Map;
-
 public class DetermineLargestWord {
     public static void main(String[] args) {
         /*
@@ -12,8 +11,21 @@ public class DetermineLargestWord {
         String s="Human brain is a biological learning machine";
         Map<Integer, String> wordNLength = findTheLargestWord(s);
         //implement
+        String[] word = s.split(" ");
+        String longword = " ";
+        for (int i = 0; i < word.length; i++)
+            for (int j = 1 + i; j < word.length; j++)
+                if (word[i].length() >= word[j].length())
+                    longword = word[i];
+
+
+
+        System.out.println(longword.length() + " " + longword);
+
+
 
     }
+
 
     public static Map<Integer, String> findTheLargestWord(String wordGiven){
         Map<Integer, String> map = new HashMap<Integer, String>();
@@ -21,5 +33,6 @@ public class DetermineLargestWord {
         //implement
 
         return map;
+
     }
 }
