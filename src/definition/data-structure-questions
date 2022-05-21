@@ -1,58 +1,97 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
-
+They increase the efficiency and performance of a program by organizing data in such a manner.
 
 What are the various operations that can be performed on different Data Structures?
+Insertion, Deletion, Searching, Sorting, Traversal
 
 List out the areas in which data structures are applied extensively?
+Database management, Compile, DBMS, Operating System
 
 what is an Array?
+An array stores multiple values in a single variable instead of having to declare separate variables for each value.
 
 what is the difference between the Array and ArrayList?
+The ArrayList class is a resizable array and it is found in the java.util package, while the array is the storage of the multiple values in the single variable.
+Array is a fixed length data structure and ArrayList is a variable length and can be changed.
 
 what is LinkedList?
+They are used to implement stacks and queues.
+With the LinkedList you can add, change, and remove items as well as clearing the list.
 
 How is an Array different from Linked List?
+They ArrayList has a regular array inside of it, while the LinkedList has containers to store their items in.
+The list has a connection to the first container and the rest of the containers are connected and so on.
 
 what is queue?
+It is an interface and It provides the functionality of the queue data structure and it extends the Collection interface.
+It can also be used to store elements before they are used.
+It applies the concept of first in first out, last in last out.
 
 what is stack?
+A stack is a collection that is under list and it follows last in first out.
 
 what is FIFO and LIFO?
+First in First out, Last in First Out
 
 what is the order of complexity?
+This is when we refer to the Big-O notation.
 
 what is the best case to search an element from an array?
+Sequential search
 
 what is the worst case to search an element from an array?
+Big O annotation
 
 what is tree in data structure?
+Tree is a connection where we have a parent and child relationship.
+Each parent has child and the hierarchy of the relationship organizes the data objects.
 
 what is graph in data structure?
+A graph is a non-linear data structure that consists of nodes and edges.
 
 what is the difference between the HashTable and HashMap?
+HashMap is not synchronous, but HashTable is. Hashmap also allows null keys and null values.
+HashTable does not allow any null keys or values.
+Hashmap can be easier to use.
 
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+RDBMS – array
+Network data model – graph
+Hierarchical data model - tree
 
 How HashMap works in java?
+It uses multiple buckets to store nodes.
+Hashmap is a data structure that allows us to store objects and retrieve it at the same constant time.
 
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+This occurs when we are trying to access index that are out of bounds.
+Any index that does not exist in the array will cause this to occur.
 
 What are the different ways of copying an array into another array?
+Clone method, create a new array, or use variable assignment.
 
 What is difference between an array and a linked list?
+An array is a collection of elements with a similar data type.
+LinkedList is an ordered collection of elements of the same type.
+Array elements can be accessed randomly but it is not possible in linked lists.
 
 What is DFS and BFS?
+DFS is Depth First Search – uses Stack data structure
+BFS is Breadth First Search – uses Queue data structure for finding shortest path
 
 What is Recursion?
+This is when a method calls itself and the consequence is a loop.
 
 What are linear and non linear data Structures?
+Linear data structures are like stack, array, queue, and list and nonlinear data structures are graphs and trees.
 
 What is Big-(O)-notation?
+The complexity of the code.
 
 Outlined different kind of sorting algorithm with time complexity?
+Time complexity is the number of items it takes for a particular instruction to execute rather than the total time it takes.
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.

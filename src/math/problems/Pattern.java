@@ -1,5 +1,4 @@
 package math.problems;
-
 public class Pattern {
 
 	public static void main(String[] args) {
@@ -8,8 +7,35 @@ public class Pattern {
 		 *
 		 *
 		 */
-		
 
+		int i = 100;
+		int count;
+		while (i > 89) {
+			System.out.print(i + ", ");
+			i--;
+		}
+		i--;
 
+		while (i<90 && i>69) {
+			System.out.print(i + ", ");
+			i=i-2;
+
+		}
+		i--;
+		while (i<70 && i>39) {
+			System.out.print(i + ", ");
+			i=i-3;
+
+		}
+		i--;
+		while (i<40 && i>0) {
+			System.out.print(i + ", ");
+			i=i-4;
+
+		}
+		i=0;
+		System.out.print(i);
 	}
 }
+
+

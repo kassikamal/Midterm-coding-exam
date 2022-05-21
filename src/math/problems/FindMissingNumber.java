@@ -1,7 +1,12 @@
 package math.problems;
 
 public class FindMissingNumber {
-
+    int n = nums.length;
+    int sum = ((n+1)*(n+2)/2);
+		for(int i=0; i<n;i++)
+    sum-=nums[i];
+		return sum;
+}
     public static void main(String[] args) {
         /*
          * If n = 10, then array will have 9 elements in the range from 1 to 10.
@@ -10,6 +15,7 @@ public class FindMissingNumber {
          */
          int [] array = new int[]{10, 2, 1, 4, 5, 3, 7, 8, 6};
          int N = array.length;
-          FindMissingNumber (arr, N);
+        System.out.println(FindMissingNumber(array));
     }
 }
+
